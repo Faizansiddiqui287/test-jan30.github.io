@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><span class="my">Tech</span><span class="blogs"> Blog</span></h1>
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label></label><label class="validation-error hide" id="titleValidationError"></label>
+                <input type="text" name="title" id="title" placeholder="Blog Title!!!" required>
+            </div>
+            <div>
+                <textarea name="desc" id="desc" placeholder="Blog Description..." rows="8" cols="50"
+                    required></textarea>
+            </div>
+            <div class="form-action-buttons">
+                <button type="submit" class="submit">Add Blog</button>
+            </div>
+        </form>
+        <table class="list" id="my_blogs">
+            <thead>
+                <tr>
+                    <th style="width: 30%; color: white; font-weight: bolder;">Title</th>
+                    <th style="width: 50%; color: white; font-weight: bolder;">Blog</th>
+                    <th style="width: 20%; color: white; font-weight: bolder;">Options</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="test.js"></script>
+</body>
+
+</html>

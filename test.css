@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 40px;
+}
+
+.my {
+    color: white;
+}
+
+.blogs {
+    color: #0080ff;
+}
+
+#title {
+    height: 2.5rem;
+    width: 35rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+}
+
+
+
+.submit{
+    display: inline-block;
+    background: #0080ff;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #0080ff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.submit:hover{
+    color: crimson;
+    background: none;
+}
+#desc {
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 8px;
+}
+
+
+
+.list {
+    background-color: linen;
+    width: 80rem;
+    font-size: 1.4rem;
+    margin: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.list th {
+    background-color: #0080ff;
+    height: 3rem;
+    border-bottom: black;
+}
+
+.list tr {
+    height: 2.5rem;
+}
+
+a {
+    border-radius: 15px;
+    height: 1.5rem;
+    width: 5rem;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.update {
+    color: #9B2335;
+    font-weight: bolder;
+}
+.update:hover{
+    text-decoration: underline;
+}
+
+.delete {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color:#0080ff;
+}
